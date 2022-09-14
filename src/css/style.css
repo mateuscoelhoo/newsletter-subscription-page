@@ -1,0 +1,97 @@
+/* Reset of CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body changes */
+body {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.main {
+    background-color: rgb(168, 168, 168);
+    border-radius: 7px;
+    color: rgb(37, 37, 37);
+    max-width: 800px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.header {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.nome {
+    display: block;
+    width: 80%;
+    margin: 0 auto 10px auto;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.email {
+    display: block;
+    width: 80%;
+    margin: 0 auto 10px auto;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.label-checkbox {
+    display: block;
+    width: 70%;
+    font-size: 12px;
+    margin: 20px auto 10px auto;
+}
+
+.btn-subscribe {
+    width: 80%;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(131, 131, 255);
+    color: white;
+    font-weight: 700;
+}
+
+.btn-subscribe:hover {
+    background-color: blue;
+    border-color: black;
+}
